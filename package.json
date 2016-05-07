@@ -1,0 +1,14 @@
+{
+  "name": "aws-lambda-gyazo-s3-signedurl",
+  "private": true,
+  "scripts": {
+    "setup": "$(npm bin)/node-lambda setup",
+    "run": "$(npm bin)/node-lambda run",
+    "package": "$(npm bin)/node-lambda package",
+    "deploy": "$(npm bin)/node-lambda deploy"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.3.9",
+    "node-lambda": "^0.8.1"
+  }
+}
